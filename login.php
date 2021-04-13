@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  
     <meta charset="UTF-8">
     <title>Login / Sistema Solicitudes de Servicio</title>
     
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
     
-    <link rel="stylesheet" href="icon/style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icon/log_Style.css">
+    <link rel="stylesheet" href="css/log_Style.css">
     
 </head>
 <body>
@@ -28,7 +30,7 @@
             <div class="welcome-form"><h1>Bienvenido</h1><h2>SSS</h2></div>
             <div class="user line-input">
                 <label class="lnr lnr-user"></label>
-                <input type="text" placeholder="Correo Electronico" name="Email">
+                <input type="text" class="form-control" placeholder="Correo Electronico" name="mail"id="recipient-name">
             </div>
             
             
@@ -38,7 +40,7 @@
             </div>
             <?php endif; ?>
             
-            <button type="submit"><a href="main.php">Entrar<label class="lnr lnr-chevron-right"></a></label></button>
+            <button type="submit" class="btn btn-primary">Entrar<label class="lnr lnr-chevron-right"></label></button>
         </form>
     </div>
     
